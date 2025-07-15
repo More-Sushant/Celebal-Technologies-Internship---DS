@@ -1,0 +1,93 @@
+What is mongo DB?
+MongoDB is a NoSQL database that uses a document-oriented data model. It stores data in flexible, JSON-like documents, allowing for dynamic schemas and easy scalability. MongoDB is designed to handle large volumes of data and provides high performance, high availability, and easy replication.
+
+
+
+create table items(id int, name varchar(50));
+db.createCollection("items");
+
+db.items.insertOne({ id: 1, name: "Item 1", name: "name1" })
+
+db.items.insertMany([
+  { id: 2, name: "Item 2", name: "name2" },
+  { id: 3, name: "Item 3", name: "name3" }
+])
+
+db.items.find({filter: {name:"name1"}}, { projection: { name: 1 } })
+
+db.items.updateOne(
+  { id: 1 },
+  { $set: { name: "Updated Item 1" } }
+)
+
+In mongo we do not normalize data like in SQL databases. Instead, we can embed related data within documents or use references to other documents. 
+
+2. Logical operator 
+db.employees.find({
+  $and: [
+    { age: { $lt: 30 } },
+    { department: "Sales" }
+  ]
+})
+
+
+Use compass or no sql booster 
+
+Request from frontend will be request.var
+Information coming from the server will be Response.var
+Express now is made to understand the json format, so we can use it to send data to the frontend.
+
+const jwt = require('jsonwebtoken'); this is used to create and verify JSON Web Tokens (JWTs) for secure authentication in Node.js applications.
+
+bcrypt is a library to hash passwords and verify them securely.
+
+what is normal forms and its type?
+
+to generate a JWT token, we need user details, a secret key and algorithm(Ssh , R.. ).
+
+
+
+
+
+MVC structure : Model-View-Controller
+
+when ever the request comes from the client 
+
+client -> main.js (userRoutes.js) -> controller (userController.js) -> model (userModel.js) -> perform operations on the database (MongoDB) -> send response back to the client
+
+
+It finds the routes in main.js
+We have a user : user{id:100, name:"Gokul"} 
+create a schema -> model
+then the url will be http://localhost:3000/api/user 
+
+post http://localhost:3000/api/user (via body in thunderclient)
+
+get http://localhost:3000/api/user ()
+
+get http://localhost:3000/api/user/100 --> 100 is the id of the user
+
+put http://localhost:3000/api/user/100 --> edit the user with id 100
+
+delete http://localhost:3000/api/user/100 --> delete the user with id 100
+
+
+The request always starts from the frontend and it goes to main.js. In main.js, it will identify the correct route, from there it goes to userRoute.js. It finds the controller function there and here it will execute the query.
+
+
+
+first we represent the table in schema form
+
+controller are used to fire the queries 
+and routes are used to api 
+config contain 
+model has schema converted by mongoose
+
+why it is used to seprate the subs? 
+
+
+separation of concerns 
+
+MVC gives us the separation of concerns, which means that each part of the application has its own responsibility. This makes the code more organized, easier to maintain, and scalable.
+
+write a express route to handle get request to /api/users/:id and return the user from mongoDB
