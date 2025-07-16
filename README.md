@@ -19,7 +19,7 @@ This repository houses the work you completed during your Data Science internshi
 ├── Upload/                       # Miscellaneous uploads
 ├── LICENSE                       # GPL‑3.0 license
 └── README.md                     # (You are here!)
-
+````
 
 Each `Assignment_X` folder contains:
 
