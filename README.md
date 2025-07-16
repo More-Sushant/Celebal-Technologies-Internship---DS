@@ -1,6 +1,6 @@
 # Celebal Technologies Internship — Data Science
 
-This repository houses the work you completed during your Data Science internship at Celebal Technologies—capturing weekly assignments and mini‑projects in Jupyter Notebooks.  
+This repository houses the work completed during my Data Science internship at Celebal Technologies—capturing weekly assignments and mini‑projects.  
 
 ---
 
@@ -8,17 +8,17 @@ This repository houses the work you completed during your Data Science internshi
 
 ```text
 .
-├── Assignment_1/                  # Introductory programming/data tasks
+├── Assignment_1/                             # Introductory programming/data tasks
 ├── Assignment_2/
 ├── Assignment_3/
 ├── Assignment_4/
 ├── Assignment_5/
 ├── Assignment_6/
-├── Assignment_7/ Crop Price Prediction ML/  # Crop price forecasting ML project
-├── Instructions/                 # Guidelines or problem statements
-├── Upload/                       # Miscellaneous uploads
-├── LICENSE                       # GPL‑3.0 license
-└── README.md                     # (You are here!)
+├── Assignment_7/ Crop Price Prediction ML/    # Crop price forecasting ML project
+├── Instructions/                              # Guidelines or problem statements
+├── Upload/                                    # Miscellaneous uploads
+├── LICENSE                                    # GPL‑3.0 license
+└── README.md                                  # (You are here!)
 ````
 
 Each `Assignment_X` folder contains:
@@ -62,13 +62,13 @@ Each `Assignment_X` folder contains:
 
 ## 📝 License
 
-This project is licensed under the **GNU General Public License v3.0** (GPL‑3.0). ([github.com][1], [github.com][2], [github.com][3])
+This project is licensed under the **GNU General Public License v3.0** (GPL‑3.0).
 
 ---
 
 ## ℹ️ Repository Context
 
-The repo “Celebal-Technologies-Internship---DS” captures your ongoing progress from weekly assignments and additional work during your internship. It’s designed to reflect your hands-on learning and portfolio of data science tasks ([github.com][1]).
+The repo “Celebal-Technologies-Internship---DS” captures your ongoing progress from weekly assignments and additional work during your internship. It’s designed to reflect your hands-on learning and portfolio of data science tasks.
 
 ---
 
