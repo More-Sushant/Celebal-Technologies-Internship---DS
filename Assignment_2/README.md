@@ -12,4 +12,4 @@ Includes robust exception handling:
 - Deleting from an empty list
 - Index out of bounds
 
-Notebook: `linked_list_oop.ipynb` includes usage examples and test cases.
+Notebook: `assignment_2.ipynb` includes usage examples and test cases.

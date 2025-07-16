@@ -8,7 +8,7 @@ Train multiple ML models:
 - Compare results and select the best model
 - Well-commented code explaining each step
 
-Check out `model_training_and_tuning.ipynb`.
+Check out `assignment_6.ipynb`.
 
 ### Resource:
-- Guide to hyperparameter tuning on KDnuggets
+- Guide to hyperparameter tuning on KDnuggets.

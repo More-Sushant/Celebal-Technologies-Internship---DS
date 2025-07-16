@@ -8,7 +8,7 @@ Perform a comprehensive Exploratory Data Analysis:
 - Outlier detection (box plots, IQR)
 - Variable relationships via correlation heatmap, pair plots
 
-See visual evidence and insights in `eda_in_depth.ipynb`.
+See visual evidence and insights in `assignment_4.ipynb`.
 
 ### Resource:
 - Titanic EDA walkthrough on Kaggle

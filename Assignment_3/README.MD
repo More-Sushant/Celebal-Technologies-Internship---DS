@@ -11,7 +11,7 @@ Include:
 - Bar charts
 - Pairplots (where relevant)
 
-Notebook: `data_visualization.ipynb` with commentary and sample visuals.
+Notebook: `assignment_3.ipynb` with commentary and sample visuals.
 
 ### Resources:
 - [YouTube – Visual EDA](https://www.youtube.com/watch?v=0P7QnIQDBJY)

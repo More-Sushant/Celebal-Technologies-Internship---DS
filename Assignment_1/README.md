@@ -6,4 +6,4 @@ Create the following patterns using the “*” character:
 2. **Upper triangular**
 3. **Pyramid**
 
-Run the Jupyter notebook `triangle_patterns.ipynb` to see the outputs. Modify the functions to generate patterns for any size `n`.
+Run the Jupyter notebook `assignment_1.ipynb` to see the outputs. Modify the functions to generate patterns for any size `n`.
