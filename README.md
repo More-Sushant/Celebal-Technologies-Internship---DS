@@ -1,6 +1,3 @@
-Here’s an updated `README.md` tailored to your actual repository structure:
-
-````markdown
 # Celebal Technologies Internship — Data Science
 
 This repository houses the work you completed during your Data Science internship at Celebal Technologies—capturing weekly assignments and mini‑projects in Jupyter Notebooks.  
@@ -22,7 +19,7 @@ This repository houses the work you completed during your Data Science internshi
 ├── Upload/                       # Miscellaneous uploads
 ├── LICENSE                       # GPL‑3.0 license
 └── README.md                     # (You are here!)
-````
+
 
 Each `Assignment_X` folder contains:
 
@@ -79,7 +76,7 @@ The repo “Celebal-Technologies-Internship---DS” captures your ongoing progre
 
 Feel free to reach out if you want to chat about the assignment details or future opportunities:
 
-* 📧 Email: `sushantmore7890@gmail.com` (update as needed)
+* 📧 Email: `sushantmorework@gmail.com`
 * 💼 LinkedIn: [linkedin.com/in/sushant-more-profile](https://www.linkedin.com/in/sushant-more-profile)
 
 ---
