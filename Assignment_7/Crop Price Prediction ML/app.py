@@ -10,7 +10,7 @@ with open('./models/Model.pkl', 'rb') as model_file:
 with open('./models/scaler.pkl', 'rb') as scaler_file:
     scaler = pickle.load(scaler_file)
 
-# Function to make predictions
+# Function to make predictions 
 def predict_price(nitrogen, phosphorus, potassium, temperature, humidity, pH_value, rainfall, crop):
     
     input_data = pd.DataFrame([[nitrogen, phosphorus, potassium, temperature, humidity, pH_value, rainfall, crop]])
@@ -39,4 +39,4 @@ crop = st.selectbox('Crop', options=[ '1','2','3','4','5','6','7','8','9','10','
 
 if st.button('Predict Price'):
     price = predict_price(nitrogen, phosphorus, potassium, temperature, humidity, pH_value, rainfall, crop)
-    st.write(f'The predicted price for the crop is: ${price:.2f}')
+    st.write(f'The predicted price for the crop is: ${price:.2f}') 
